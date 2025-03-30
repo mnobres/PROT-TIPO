@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recompensas - MoneyQuest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+            <div class="app-container">
+                <!-- App Header -->
+                <header class="app-header">
+                    <h2>Suas Recompensas</h2>
+                    <div class="xp-badge">XP: 1.250</div>
+                </header>
+                
+                <!-- Level Card -->
+                <div class="level-card animate__animated animate__fadeIn">
+                    <div class="level-info">
+                        <p>Nível Atual</p>
+                        <h3>5</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%;"></div>
+                        </div>
+                        <p>250/500 XP para o próximo nível</p>
+                    </div>
+                    <div class="level-icon">🏅</div>
+                </div>
+                
+                <!-- Badges Section -->
+                <section class="section animate__animated animate__fadeIn animate__delay-1s">
+                    <h3>Conquistas</h3>
+                    
+                    <div class="badges-grid">
+                        <div class="badge earned">
+                            <div class="badge-icon">🏆</div>
+                            <h4>Economista Iniciante</h4>
+                            <p>Salvou R$ 1.000</p>
+                        </div>
+                        
+                        <div class="badge earned">
+                            <div class="badge-icon">⭐</div>
+                            <h4>Primeira Meta</h4>
+                            <p>Completou 1 meta</p>
+                        </div>
+                        
+                        <div class="badge">
+                            <div class="badge-icon">💰</div>
+                            <h4>Economista Bronze</h4>
+                            <p>Salve R$ 5.000</p>
+                        </div>
+                        
+                        <div class="badge">
+                            <div class="badge-icon">📈</div>
+                            <h4>Investidor</h4>
+                            <p>Invista R$ 1.000</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Next Rewards -->
+                <section class="section animate__animated animate__fadeIn animate__delay-2s">
+                    <h3>Próximas Recompensas</h3>
+                    
+                    <div class="rewards-list">
+                        <div class="reward-item">
+                            <div class="reward-icon">🎨</div>
+                            <div class="reward-info">
+                                <h4>Nível 6</h4>
+                                <p>Desbloqueia tema personalizado</p>
+                                <div class="reward-progress">250 XP restantes</div>
+                            </div>
+                        </div>
+                        
+                        <div class="reward-item">
+                            <div class="reward-icon">🛡️</div>
+                            <div class="reward-info">
+                                <h4>Economista Prata</h4>
+                                <p>Salve R$ 10.000</p>
+                                <div class="reward-progress">4.750 restantes</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <!-- Bottom Navigation -->
+            <nav class="bottom-nav">
+                <a href="dashboard.html" class="nav-item">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-label">Início</span>
+                </a>
+                <a href="goals.html" class="nav-item">
+                    <span class="nav-icon">🎯</span>
+                    <span class="nav-label">Metas</span>
+                </a>
+                <a href="transactions.html" class="nav-item">
+                    <span class="nav-icon">💸</span>
+                    <span class="nav-label">Transações</span>
+                </a>
+                <a href="rewards.html" class="nav-item active">
+                    <span class="nav-icon">🏆</span>
+                    <span class="nav-label">Recompensas</span>
+                </a>
+            </nav>
+        </div>
+        <div class="phone-bottom-bar"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
